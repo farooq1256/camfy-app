@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; 
+    
+}
+
+h1 {
+    text-shadow: 2px 2px #e14c07;
+}
+
+h2 {
+    text-shadow: 2px 2px #bdc911;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
+.image {
+    height: 200px;
+    max-width: 100%; 
+    background-color: rgb(198, 15, 15);
+}
+
+.form {
+    width: 100%; 
+    max-width: 50vh; 
+    border: 1px solid rgb(99, 93, 81);
+}
+
+@media screen and (min-width: 600px) {
+    .form {
+        max-width: 400px; 
+    }
+}
+
+.searchButton{
+    background: #04c3ea;
+    padding: 0 5px;
+    border: none;
+    width: 80px;
+}
+
+.searchButton:hover {
+    color: white;
+    background-color: rgb(206, 101, 206);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+
+.cartData{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    margin: auto;
+}
+.card{
+    width: 350px;
+    background-color: silver;
+    padding: 11px;
+    margin-top: 25px;
+
+}
+.card:hover{
+    background-color: rgb(108, 87, 87);
+    color: azure;
+}
+.card img{
+    width: 100%;
+    height: 40%;
+}
+.card h4{
+    margin-top: 10px;
+    padding: 3px;
+}
+.card p{
+    margin-top: 10px;
+    padding: 2px;
+}
